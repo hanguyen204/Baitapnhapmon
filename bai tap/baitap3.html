@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+         let sotienvay = parseInt(prompt("số tiền cần vay"));
+         let laisuat = parseFloat(prompt("Nhập lãi suât nghân hàng %"));
+         let sonam = parseInt(prompt("Nhập số năm vay"));
+         
+         let sotienlai = (sotienvay * laisuat) / 100
+         
+         let sotiennhan = sotienvay + (sonam * laisuat)
+         alert("số tiền nhận: " + sotiennhan)
+    </script>
+</body>
+</html>
